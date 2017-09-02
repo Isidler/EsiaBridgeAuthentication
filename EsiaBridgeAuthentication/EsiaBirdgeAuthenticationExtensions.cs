@@ -5,7 +5,6 @@ namespace EsiaBridgeAuthentication
 {
     public static class EsiaBirdgeAuthenticationExtensions
     {
-        //Добавлен допольнительный  контруктор EsiaBirdgeAuthenticationExtensions
         public static IAppBuilder UseEsiaBirdgeAuthentication(this IAppBuilder app, EsiaBridgeAuthenticationOptions options)
         {
             if (app == null)

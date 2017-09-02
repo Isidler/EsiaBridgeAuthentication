@@ -19,7 +19,7 @@ namespace EsiaBridgeAuthentication.Provider
         /// </summary>
         /// <param name="context">The OWIN environment</param>
         /// <param name="user">The JSON-serialized user</param>
-        /// <param name="accessToken">VK Access token</param>
+        /// <param name="accessToken">Esia-Bridge Access token</param>
         public EsiaBridgeAuthenticatedContext(IOwinContext context, JObject user, string accessToken)
             : base(context)
         {
