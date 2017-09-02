@@ -1,7 +1,7 @@
 # EsiaBridgeAuthentication
-ASP.NET Owin OAuth Provider ESIA-Bridge
+OWIN OAuth Provider ESIA-Bridge
 
-Библиотека для авторизации через госуслуги
+Библиотека для авторизации через госуслуги ESIA-Bridge
 
 Использование:
 1. Добавить в Startup
